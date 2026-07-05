@@ -1,0 +1,17 @@
+[package]
+name = "tic-tac-toe"
+version = "0.1.0"
+edition = "2021"
+description = "A tic-tac-toe game written in Rust, compiled to WebAssembly."
+
+# cdylib is required to build a WebAssembly library for the browser.
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+
+# Smaller, faster .wasm output for the released game.
+[profile.release]
+opt-level = "s"
+lto = true
