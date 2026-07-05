@@ -1,11 +1,10 @@
 # Tic-Tac-Toe 🦀
 
-A tic-tac-toe game where **all the game logic and the AI are written in Rust**,
-compiled to **WebAssembly**, and played in the browser. The computer opponent
-uses the **minimax** algorithm, which makes it *unbeatable* — the best you can do
-is draw.
+A tic-tac-toe game where all the game logic and the AI are written in Rust, 
+compiled to WebAssembly, and played in the browser. The computer opponent uses 
+the minimax algorithm, which makes it unbeatable — the best you can do is draw.
 
-▶️ **Play:** `https://abrarragib.github.io/rusty-tac-toe/`
+▶️ **[Play it here](https://abrarragib.github.io/rusty-tac-toe/)**
 
 
 ## How it works
