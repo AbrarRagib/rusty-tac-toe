@@ -5,8 +5,8 @@ compiled to **WebAssembly**, and played in the browser. The computer opponent
 uses the **minimax** algorithm, which makes it *unbeatable* — the best you can do
 is draw.
 
-▶️ **Play:** `https://<your-username>.github.io/tic-tac-toe/`
-(replace `<your-username>` with your GitHub username)
+▶️ **Play:** `https://abrarragib.github.io/rusty-tac-toe/`
+
 
 ## How it works
 
