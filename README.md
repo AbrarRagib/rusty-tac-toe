@@ -1,11 +1,10 @@
 # Tic-Tac-Toe 🦀
 
-A tic-tac-toe game where all the game logic and the AI are written in Rust, 
-compiled to WebAssembly, and played in the browser. The computer opponent uses 
+A tic-tac-toe game where all the game logic and the AI are written in Rust,
+compiled to WebAssembly, and played in the browser. The computer opponent uses
 the minimax algorithm, which makes it unbeatable — the best you can do is draw.
 
 ▶️ **[Play it here](https://abrarragib.github.io/rusty-tac-toe/)**
-
 
 ## How it works
 
@@ -21,13 +20,13 @@ for you in the cloud.
 
 ## Put it on GitHub and play it (no local setup)
 
-1. Create a new repository on GitHub named **`tic-tac-toe`**.
+1. Create a new repository on GitHub named **`rusty-tac-toe`**.
 2. Upload these files to it (drag-and-drop in the browser, or `git push`).
 3. In the repo, go to **Settings → Pages** and set **Source** to
    **"GitHub Actions"**.
 4. Go to the **Actions** tab. The "Deploy to GitHub Pages" workflow runs
    automatically. Wait for the green check ✅ (about 1–2 minutes).
-5. Open `https://<your-username>.github.io/tic-tac-toe/` and play!
+5. Open `https://abrarragib.github.io/rusty-tac-toe/` and play!
 
 Every time you push a change, the site rebuilds and redeploys by itself.
 
@@ -38,7 +37,7 @@ git init
 git add .
 git commit -m "Tic-tac-toe in Rust + WASM"
 git branch -M main
-git remote add origin https://github.com/<your-username>/tic-tac-toe.git
+git remote add origin https://github.com/AbrarRagib/rusty-tac-toe.git
 git push -u origin main
 ```
 
